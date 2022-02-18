@@ -41,7 +41,15 @@ This assignment walks you through modifying an [bioconductor docker images](http
 ----
 <!-- blank line -->
 
-### 2. create a new container that installs asciinema using a dockerfile
+### 2. clone repo and navigate to directory
+<!-- blank line -->
+```
+cd ~/bioconductor
+```
+----
+<!-- blank line -->
+
+### 3. create a new container that installs asciinema using a dockerfile
 ```
 docker build -t bioconductor_asciinema .
 ```
@@ -49,7 +57,7 @@ docker build -t bioconductor_asciinema .
 ----
 <!-- blank line -->
 
-### 3. boot into the new docker container 
+### 4. boot into the new docker container 
 ```
 docker run -it bioconductor_asciinema:latest bash
 ```
@@ -57,7 +65,7 @@ docker run -it bioconductor_asciinema:latest bash
 ----
 <!-- blank line -->
 
-### 4. start a screen-cast from within the container 
+### 5. start a screen-cast from within the container 
 ```
 asciinema rec
 ```
@@ -65,7 +73,7 @@ asciinema rec
 ----
 <!-- blank line -->
 
-### 5. link your container to your asciinema.org account by opening the URL in a web browser 
+### 6. link your container to your asciinema.org account by opening the URL in a web browser 
 ```
 asciinema auth
 ```
@@ -73,24 +81,27 @@ asciinema auth
 ----
 <!-- blank line -->
 
-### 6. add screen-cast headers and check your docker container
+### 7. add screen-cast headers and check your docker container
 ```
 # GMS6804
 # name: [your-name-here]
 # date: [current-date]
 # semester: [current-semester]
-# assignment: build bioconductor-asciinema  
+# assignment: quiz07- bioconductor-asciinema  
 
 # check if R is installed?
 R
 # exit R
 quit()
+# check bioconductor package
+
+
 ```
 <!-- blank line -->
 ----
 <!-- blank line -->
 
-### 7. login to dockerhub
+### 8. login to dockerhub
 ```
 docker login
 login: [YOUR DOCKERHUB ID]
@@ -100,10 +111,10 @@ pwd: [YOUR PASSWORD]
 ----
 <!-- blank line -->
 
-### 8. tag container
+### 9. tag container
 ```
 docker tag bioconductor_asciinema [YOUR DOCKERHUB ID]/bioconductor_asciinema:[month_year]
 docker push [YOUR DOCKERHUB ID]/bioconductor_asciinema:[month_year]
 ```
 
-### 9. example screen-cast
+### 10. example screen-cast
