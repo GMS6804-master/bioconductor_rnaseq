@@ -91,17 +91,30 @@ asciinema auth
 
 # check if R is installed?
 R
-# exit R
+# check if bioconductor package installed:
+library(Biostrings)
+sequences <- c("AAATCGA", "ATACAACAT", "TTGCCA")
+sequences
+dna <- DNAStringSet(sequences)
+dna
+reverse(dna)
+reverseComplement(dna)
 quit()
-# check bioconductor package
-
 
 ```
 <!-- blank line -->
 ----
 <!-- blank line -->
 
-### 8. login to dockerhub
+### 8. exit out of container
+```
+CTRL-D
+```
+<!-- blank line -->
+----
+<!-- blank line -->
+
+### 9. login to dockerhub
 ```
 docker login
 login: [YOUR DOCKERHUB ID]
@@ -111,10 +124,8 @@ pwd: [YOUR PASSWORD]
 ----
 <!-- blank line -->
 
-### 9. tag container
+### 10. tag container
 ```
 docker tag bioconductor_asciinema [YOUR DOCKERHUB ID]/bioconductor_asciinema:[month_year]
 docker push [YOUR DOCKERHUB ID]/bioconductor_asciinema:[month_year]
 ```
-
-### 10. example screen-cast
