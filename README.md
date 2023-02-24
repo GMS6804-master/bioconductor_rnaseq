@@ -44,7 +44,7 @@ This assignment walks you through modifying an [bioconductor docker images](http
 ### 2. clone repo and navigate to directory
 <!-- blank line -->
 ```
-cd ~/bioconductor
+cd ~/bioconductor-[github-user-name]
 ```
 ----
 <!-- blank line -->
