@@ -64,7 +64,7 @@ docker run -it -v C:/Users/djlemas/OneDrive/Documents/rna-seq:/project dominickl
 
 ### 4. link your container to your asciinema.org account by opening the URL in a web browser 
 ```
-asciinema auth
+$ asciinema auth
 ```
 ![asciinema_auth](https://github.com/GMS6804-master/assignment/blob/main/images/asciinema_auth.png)
 <!-- blank line -->
@@ -73,18 +73,18 @@ asciinema auth
 
 ### 5. add screen-cast headers 
 ```
-asciinema rec
-# Name: 
-# Date: 
-# bioconductor:: bioconductor_rnaseq
+$ asciinema rec
+$ # Name: 
+$ # Date: 
+$ # bioconductor:: bioconductor_rnaseq
 ```
 <!-- blank line -->
 ----
 <!-- blank line -->
 
-### 6. start R, 
+### 6. Start R 
 ```
-R
+$ R
 ```
 
 ### 7. Begin the tutorial at 2.3 Reading in data with tximeta
