@@ -2,7 +2,7 @@
 
 ## Assignments
 
-This assignment will require you to (1) build a bioconductor docker image from a dockerfile and (2) use the docker container to complete the RNA-seq tutorial. You will build a [bioconductor docker images](https://hub.docker.com/r/bioconductor/bioconductor_docker) image using a dockerfile and push the image to DockerHub. [Docker Hub](https://www.docker.com/products/docker-hub) is a hosted repository service provided by Docker for finding and sharing container images with others.
+This assignment will require you to (1) build a bioconductor docker image from a dockerfile and (2) use the docker container to complete the RNA-seq tutorial. You will build a [bioconductor docker image](https://hub.docker.com/r/bioconductor/bioconductor_docker) using a dockerfile and push the image to DockerHub. [Docker Hub](https://www.docker.com/products/docker-hub) is a hosted repository service provided by Docker for finding and sharing container images with others.
 
 ### Prerequisites
 You will need to be comfortable with the following:
