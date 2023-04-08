@@ -9,7 +9,7 @@ You will need to be comfortable with the following:
 * You have installed docker.
 * You can pull/push to DockerHub from command-line.
 
-### Part 1: Build a Docker Image 
+### Part 1: [Build a Docker Image](https://github.com/GMS6804-master/bioconductor_rnaseq/blob/main/docker_build.md) 
 
 ### Part 2: Complete RNA-seq Tutorial
 
