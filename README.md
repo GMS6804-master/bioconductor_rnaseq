@@ -15,7 +15,7 @@ You will need to be comfortable with the following:
 
 # build bioconductor-asciinema docker image
 
-This assignment walks you through modifying an [bioconductor docker images](https://hub.docker.com/r/bioconductor/bioconductor_docker) by installing [asciinema](https://asciinema.org/docs/installation) and saving the new docker image to dockerhub. [asciinema](https://asciinema.org/about) is a free and open source solution for recording terminal sessions and sharing them on the web. [Docker](https://www.docker.com/resources/what-container) is tool that packages software into self-contained computing environments, called containers. [Docker Hub](https://www.docker.com/products/docker-hub) is a hosted repository service provided by Docker for finding and sharing container images with others.
+This assignment walks you building a [bioconductor docker images](https://hub.docker.com/r/bioconductor/bioconductor_docker) using a dockerfile and pushing the images to DockerHub. [Docker Hub](https://www.docker.com/products/docker-hub) is a hosted repository service provided by Docker for finding and sharing container images with others.
 
 <!-- blank line -->
 ----
