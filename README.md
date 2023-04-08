@@ -1,4 +1,4 @@
-# General Assignment Guidelines
+# Assignment Guidelines
 
 ## Assignments
 
